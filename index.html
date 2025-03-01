@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/faktum-test" rel="stylesheet">
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <!-- Loader Section -->
+    <div id="loader">
+      <div class="square-move-3"></div>
+      <div id="loader-text"></div>
+    </div>
+
+    <!-- Progress Line (hidden with css) -->
+    <div id="progress-line"></div>
+
+    <!-- Header Section -->
+    <header>
+      <div class="container header-container">
+        <div class="logo-container">
+          <a href="index.html">
+            <img
+              src="assets/images/logo-main.svg"
+              alt="REINMAX Logo"
+              class="logo-img image-spacing"
+            />
+          </a>
+        </div>
+        <nav id="nav-menu" class="nav-menu">
+          <a href="index.html">Home</a>
+          <a href="story.html">Our Story</a>
+          <a href="services.html">Services</a>
+          <a href="#our-projects" class="nav-link">Projects</a>
+          <a href="learn.html">Courses</a>
+          <a href="blog">Blog</a>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          <img src="assets/images/menu-icon.svg" alt="Menu" id="open-icon" class="image-spacing" />
+          <img
+            src="assets/images/close-icon.svg"
+            alt="Close"
+            id="close-icon"
+            class="hidden image-spacing"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1>
+          We're excited to bring your<br> brand's vision to life with <span style="color: #e68a58;"> functional design.</span> <br>
+        </h1>
+        <div class="hero-buttons">
+          <a href="services.html" class="cta-button primary-button">Our Services</a>
+          <a href="courses.html" class="cta-button secondary-button">Learn Design</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Primary Text Section -->
+    <section class="primary-text">
+      <h1>
+        “Design creates culture. Culture shapes values. <br> Values determine the future.” <br>
+        <span class="primary-text-style">~ Robert L. Peters</span>
+      </h1>
+    </section>
+
+    <!-- Recent Projects Section -->
+    <section class="Recent-Projects">
+      <div class="projects-header">
+        <h1 id="our-projects" class="the-title">PORTFOLIO</h1>
+        <p class="the-subtext">
+          Explore our diverse range of innovative  <br> projects that push the boundaries of <br> <span style="color: #e68a58;"> creativity and design.</span>
+        </p>
+      </div>
+      <div class="projects-container">
+        <section class="single-project">
+          <div class="project-card">
+            <img
+              src="assets/images/brand-01.jpg"
+              alt="Project Image"
+              class="project-image image-spacing"
+              loading="lazy"
+            />
+            <div class="project-details">
+              <h2 class="project-title">Brand Design</h2>
+              <p class="project-description">
+                Our brand design services focus on creating cohesive visuals that reflect your brand's values and goals.
+              </p>
+              <a href="#" class="cta-button project-link">Portfolio</a>
+            </div>
+          </div>
+        </section>
+        <section class="single-project">
+          <div class="project-card">
+            <img
+              src="assets/images/Logo-Thumbnail.jpg"
+              alt="Project Image"
+              class="project-image image-spacing"
+              loading="lazy"
+            />
+            <div class="project-details">
+              <h2 class="project-title">Logo Design</h2>
+              <p class="project-description">
+                Our logo designs are crafted with precision and creativity, ensuring your brand gets noticed and leaves a strong impact.
+              </p>
+              <a href="#" class="cta-button project-link">Logofolio</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 REINMAX. All rights reserved. <br> Developed by <a href="mailto:dev@reinmax.com">Reinhard Baraka</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
